@@ -10,13 +10,13 @@ public class TestMain {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		List<Integer> plist=new ArrayList<>();
+		List<Object> plist=new ArrayList<>();
 		
 		System.out.println("Enter the Number (enter 's' for finish)");
 		while(sc.hasNext())
 		{
-			int i=sc.nextInt();
-			if(i==10)
+			String i=sc.next();
+			if(i.equals("s"))
 			{
 				break;
 			}
