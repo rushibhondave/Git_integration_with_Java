@@ -15,6 +15,6 @@ public class Data_Structure {
     {
         System.out.println("Hi Start the data struture");
                 
-        
+         System.out.println("Hi Start the data struture");
     }
 }
