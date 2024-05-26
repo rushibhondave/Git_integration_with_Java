@@ -3,6 +3,7 @@ package com.demo.Main;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.Scanner;
 
 public class TestMain {
@@ -22,15 +23,27 @@ public class TestMain {
 			}
 			plist.add(i);
 		}
+		//System.out.println("The Number is ::"+plist); //give a collection
 		
-		Iterator itr=plist.iterator();
-		System.out.println("The Number is ::");
+		ListIterator<Object> itr=plist.listIterator();
+		System.out.println("The forword Number is ::");
 		while(itr.hasNext())
 		{
-			System.out.println(itr.next());
+			System.out.println(itr.next());    // print forword
 		}
 		
-
+		System.out.println("\nThe backword Number is ::");
+		while(itr.hasPrevious())
+		{
+			System.out.println(itr.previous());    // print backword
+		}
+		
+		
+		 
+		plist.remove(0);
+		
+		plist.set(0, 100);
+		System.out.println("The remove Number is ::"+plist);
 	}
 }
 
