@@ -2,7 +2,7 @@ package com.mycompany.data_structure;
 
 import java.util.Scanner;
 
-public class _1D_Array {
+public class Min_And_Max_Array {
 
     public static void main(String[] args) {
 
@@ -34,3 +34,4 @@ public class _1D_Array {
     }
 
 }
+
