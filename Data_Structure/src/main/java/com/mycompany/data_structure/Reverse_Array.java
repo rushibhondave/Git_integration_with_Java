@@ -1,7 +1,5 @@
 package com.mycompany.data_structure;
 
-import java.util.Collection;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class Reverse_Array {
@@ -11,7 +9,7 @@ public class Reverse_Array {
         System.out.println("Enter the  size:");
         int n = obj.nextInt();
         int[] arr = new int[n], revrse;
-        String  name="Rushikesh";
+        String name = "Rushikesh";
 
         System.out.println("Enter the arrys element  " + n + " :");
         for (int i = 0; i < n; i++) {
@@ -30,9 +28,7 @@ public class Reverse_Array {
                     temp = arr[i];
                     arr[i] = arr[n - i - 1];
                     arr[n - i - 1] = temp;
-
                 }
-
                 System.out.println("  Revese arrys element   :");
                 for (int i = 0; i < n; i++) {
 
@@ -42,15 +38,14 @@ public class Reverse_Array {
             break;
 
             case 2: {
-                String rev=null;
+                String rev = null;
                 char c;
-                for (int i = 0; i < n ; i++)
-                {
-                       c=name.charAt(i);
-                       rev+=c;
+                for (int i = 0; i < n; i++) {
+                    c = name.charAt(i);
+                    rev += c;
                 }
-                
-                System.out.println("Reverse string : "+rev);
+
+                System.out.println("Reverse string : " + rev);
             }
             break;
 
