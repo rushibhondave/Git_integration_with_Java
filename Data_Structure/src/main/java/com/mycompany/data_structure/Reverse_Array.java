@@ -11,6 +11,7 @@ public class Reverse_Array {
         System.out.println("Enter the  size:");
         int n = obj.nextInt();
         int[] arr = new int[n], revrse;
+        String  name="Rushikesh";
 
         System.out.println("Enter the arrys element  " + n + " :");
         for (int i = 0; i < n; i++) {
@@ -41,12 +42,15 @@ public class Reverse_Array {
             break;
 
             case 2: {
-                String rev;
-                for (int i = 0; i < n ; i++) {
-
-               
-
+                String rev=null;
+                char c;
+                for (int i = 0; i < n ; i++)
+                {
+                       c=name.charAt(i);
+                       rev+=c;
                 }
+                
+                System.out.println("Reverse string : "+rev);
             }
             break;
 
