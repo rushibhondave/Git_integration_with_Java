@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Reverse_Array {
 
-    public static void main(String[] args) {
+ 
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter the  size:");
         int n = obj.nextInt();
@@ -65,4 +65,4 @@ public class Reverse_Array {
 
     }
 
-}
+
