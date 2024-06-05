@@ -55,6 +55,12 @@ public class String_Problems {
                 break;
             }
             
+                     case 6->
+            {
+                 Count_Words. Count_Words1();
+                break;
+            }
+            
             default -> throw new AssertionError();
         }
         
