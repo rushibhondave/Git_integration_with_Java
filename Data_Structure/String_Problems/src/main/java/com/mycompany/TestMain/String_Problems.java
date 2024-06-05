@@ -6,6 +6,8 @@
 package com.mycompany.TestMain;
 
 import com.demo.beans.Frequency_Characters;
+import com.demo.beans.Frequency_Characters;
+import com.demo.beans.Remove_Characters;
 import java.util.Scanner;
 
 /**
@@ -24,6 +26,12 @@ public class String_Problems {
             case 1 ->
             {
                 Frequency_Characters.CountChar();
+                break;
+            }
+            
+             case 2 ->
+            {
+                 Remove_Characters. RemoveCharacters1();
                 break;
             }
             
