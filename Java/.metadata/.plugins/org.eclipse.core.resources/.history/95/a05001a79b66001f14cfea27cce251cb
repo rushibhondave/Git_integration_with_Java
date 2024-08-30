@@ -1,0 +1,19 @@
+package com.demo.DAO;
+
+public class Reaopted {
+
+
+    public static void main(String[] args) {
+        int num = 28;
+        int sqrt = (int) Math.sqrt(num);
+        
+       
+        int perfectSquare = sqrt * sqrt;
+
+      
+        int difference =;
+
+ 
+        System.out.println("Number of + or - required: " + Math.abs( num - perfectSquare));
+    }
+}

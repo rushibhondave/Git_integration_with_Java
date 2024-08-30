@@ -1,0 +1,13 @@
+package com.demo.beans;
+
+public class DuplicateCharcater {
+	
+ 
+	     public static void DuplicateCharcater()
+	     {
+	    	 
+	    	 char[] arr1 = {'r', 's', 'b', 'u', 'v','r', 's', 'b', 'u', 'b'};
+	    	 
+	    	 
+	     }
+}

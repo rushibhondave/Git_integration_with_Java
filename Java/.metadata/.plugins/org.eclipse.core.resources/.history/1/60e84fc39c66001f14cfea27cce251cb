@@ -1,0 +1,22 @@
+package com.demo.DAO;
+
+public class Reaopted {
+
+
+    public static void main(String[] args) {
+        int num = 28;
+//        int sqrt = (int) Math.sqrt(num);
+//        int perfectSquare = sqrt * sqrt;
+//        int difference = num - perfectSquare;
+//        System.out.println(Math.abs(difference));
+        
+        
+        int sqt=(int) Math.sqrt(num);
+        
+        int perf=sqt*sqt;
+        
+        int diff=num-perf;;
+        
+        System.out.println(Math.abs(diff));
+    }
+}

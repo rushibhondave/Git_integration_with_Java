@@ -1,0 +1,10 @@
+package com.demo.beans;
+
+public class DuplicateCharcater {
+	
+ 
+	     public static void DuplicateCharcater(int n)
+	     {
+	    	 
+	     }
+}

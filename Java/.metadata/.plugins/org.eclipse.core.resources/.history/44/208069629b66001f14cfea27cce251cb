@@ -1,0 +1,26 @@
+package com.demo.DAO;
+
+public class Reaopted {
+
+
+    public static void main(String[] args) {
+        int number = 28; // Input number
+        int count = 0;
+        int result = number;
+
+        // Loop until we find a perfect square
+        while (!isPerfectSquare(result)) {
+            result--; // Subtract 1
+            count++; // Increment the count of subtractions
+        }
+
+        System.out.println("Number of subtractions required: " + count);
+        System.out.println(number + " - " + count + " = " + result);
+    }
+
+    // Helper method to check if a number is a perfect square
+    private static boolean isPerfectSquare(int n) {
+        int sqrt = (int) Math.sqrt(n);
+        return sqrt * sqrt == n;
+    }
+}

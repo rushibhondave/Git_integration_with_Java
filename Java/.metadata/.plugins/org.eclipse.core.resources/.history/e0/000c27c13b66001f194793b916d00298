@@ -1,0 +1,12 @@
+package com.demo.beans;
+
+public class DuplicateCharcater {
+	
+ 
+	     public static void DuplicateCharcater()
+	     {
+	    	 
+	    	 char[] JavaCharArray = {'r', 's', 't', 'u', 'v'};
+	    	 
+	     }
+}

@@ -1,0 +1,20 @@
+package com.demo.beans;
+
+import java.util.HashMap;
+
+public class DuplicateCharcater {
+	
+ 
+	     public static void DuplicateCharcater()
+	     {
+	    	 
+	    	 String str1="RushikeshRameshBhondave";
+	    	 char [] str2=str1.toCharArray();
+	    	 
+	    	 
+	    	 Map<Character, Integer> SplitWord=new HashMap<Character, Integer>();
+	    
+	    	 
+	    	 
+	     }
+}

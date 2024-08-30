@@ -1,0 +1,52 @@
+
+package com.demo.TestMain;
+
+
+import java.util.Scanner;
+
+
+public class MainMethod {
+      public static void main(String[] args) 
+    {
+          Scanner obj = new Scanner(System.in);
+        int n=5;
+        int[] arr = new int[n];
+   
+        System.out.println("Enter the method 1.ASC Sort 2.DESC Sort 3.Another Way ");
+        int ch = obj.nextInt();
+
+        switch (ch) {
+            case 1 ->
+            { 
+                SortArray_ASC_DESC.ASCArray(arr,n);
+                break;
+            } 
+            
+            
+              case 2 ->
+            { 
+                //Min_And_Max_Array.Min_Max(arr,n);
+                break;
+            } 
+            
+            
+              case 3 ->
+            { 
+             //Reverse_Array.Revese(arr,n);
+                break;
+            } 
+            
+                  case 4 ->
+            { 
+              Duplicate_Values.Duplicate_Values1();
+                break;
+            } 
+            
+           
+            default ->
+                System.out.println("invalid No");
+
+        }
+    }
+}
+

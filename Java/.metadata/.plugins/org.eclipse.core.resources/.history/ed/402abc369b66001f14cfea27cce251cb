@@ -1,0 +1,37 @@
+package com.demo.DAO;
+
+import java.util.Scanner;
+public class Reaopted {
+
+
+    public static void main(String[] args) {
+        // Scanner to read input
+        Scanner sc = new Scanner(System.in);
+        
+        // Read the input string
+        String geneticCode = sc.nextLine();
+        
+        // Variables to count 'A' and 'T' characters
+        int countA = 0;
+        int countT = 0;
+        
+        // Loop through the string and count 'A' and 'T'
+        for (char c : geneticCode.toCharArray()) {
+            if (c == 'A') {
+                countA++;
+            } else if (c == 'T') {
+                countT++;
+            }
+        }
+        
+        // Check if the code is supreme
+        if (countA < countT) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+        
+        // Close the scanner
+        sc.close();
+    }
+}

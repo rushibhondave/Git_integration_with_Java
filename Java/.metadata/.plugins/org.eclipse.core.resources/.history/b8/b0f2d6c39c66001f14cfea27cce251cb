@@ -1,0 +1,28 @@
+package com.demo.DAO;
+
+public class Reaopted {
+
+\
+	    public static void main(String[] args) {
+	        String input = "AAHGTAA";  // Input string
+
+	        // Count occurrences of 'A' and 'T'
+	        int countA = 0;
+	        int countT = 0;
+
+	        for (char ch : input.toCharArray()) {
+	            if (ch == 'A') {
+	                countA++;
+	            } else if (ch == 'T') {
+	                countT++;
+	            }
+	        }
+
+	        // Compare the counts
+	        if (countA > countT) {
+	            System.out.println("No");
+	        } else {
+	            System.out.println("Yes");
+	        }
+	    }
+	}
